@@ -23,7 +23,7 @@ fun main(args: Array<String>) {
 }
 
 object PasswordResetService{
-    fun send(email: Email.Verified): Unit = TODO("send reset")
+    fun send(email: Email.Verified): Unit = println("send reset to ${email.value}")
 }
 
 object EmailVerificationService{
